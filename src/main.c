@@ -96,13 +96,11 @@ int main (int argc, char* argv[]) {
 		FILE *inFile = fopen(fileName, "rb");
 		if (!inFile) {
 			printf("Cant open input file!\n");
-			fclose(inFile);
 			exit(1);
 		}
 		FILE *outFile = fopen("krypt.out", "wb");
 		if (!outFile) {
 			printf("Cant create output file!\n");
-			fclose(outFile);
 			exit(1);
 		}
 		crypt(inFile, outFile, key, 1);
@@ -113,13 +111,11 @@ int main (int argc, char* argv[]) {
 		FILE *inFile = fopen(fileName, "rb");
 		if (!inFile) {
 			printf("Cant open input file!\n");
-			fclose(inFile);
 			exit(1);
 		}
 		FILE *outFile = fopen("dekrypt.out", "wb");
 		if (!outFile) {
 			printf("Cant create output file!\n");
-			fclose(outFile);
 			exit(1);
 		}
 		crypt(inFile, outFile, key, 0);
