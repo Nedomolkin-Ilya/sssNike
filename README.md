@@ -8,19 +8,19 @@ sssNike это функция котороая зашифровывает фай
 
 ## Установка
 ### Требования
-Компиялтор C\n
-СMake версии 2.8 и выше\n
-OpenSSL версии 1.0.1 и выше\n
+&Компиялтор C
+&СMake версии 2.8 и выше
+&OpenSSL версии 1.0.1 и выше
 
 ### Сборка
-git clone <URL>\n
-mkdir build\n
-cd build\n
-cmake ../sssNike\n
-make\n
+&git clone <URL>
+&mkdir build
+&cd build
+&cmake ../sssNike
+&make
 
 ## Использование
-sssnike -e||-d -f <fileName> -p <pasWd>\n
-  -e||-d  Encryption||Decription\n
-  -f      File name\n
-  -p      The string on the base of with the password will be created\n
+&sssnike -e||-d -f <fileName> -p <pasWd>
+&  -e||-d  Encryption||Decription
+&  -f      File name
+&  -p      The string on the base of with the password will be created
