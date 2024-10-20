@@ -20,7 +20,7 @@ cmake ../sssNike\
 make
 
 ## Использование
-sssnike -e||-d -f <fileName> -p <pasWd>\
+./sssnike -e||-d -f <fileName> -p <pasWd>\
   -e||-d  Encryption||Decription\
   -f      File name\
   -p      The string on the base of with the password will be created
